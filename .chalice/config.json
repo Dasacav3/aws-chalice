@@ -1,9 +1,15 @@
 {
   "version": "2.0",
-  "app_name": "chalice-testing",
+  "app_name": "chalice_testing",
   "stages": {
     "dev": {
-      "api_gateway_stage": "api"
+      "api_gateway_stage": "dev"
+    },
+    "stable": {
+      "api_gateway_stage": "stable"
+    },
+    "prod": {
+      "api_gateway_stage": "prod"
     }
   }
 }
